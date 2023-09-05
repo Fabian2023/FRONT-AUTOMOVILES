@@ -50,10 +50,12 @@
 }
 
 /* Estilos para el encabezado h1 */
-h1 {
-  font-size: 24px;
+.header-sec {
+  font-size: 45px;
   margin-bottom: 40px;
   color: white;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .Boton {
@@ -65,7 +67,7 @@ h1 {
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
-  display: flex;
-  margin-left: 790px;
-  margin-right: 850px;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
 }

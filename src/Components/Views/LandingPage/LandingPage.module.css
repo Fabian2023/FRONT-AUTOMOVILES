@@ -9,7 +9,7 @@
   }
 }
 
-.homeButton {
+.boton {
   background-color: #f17474;
   color: #000000;
   padding: 10px 20px;
@@ -18,9 +18,9 @@
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
-  display: flex;
-  margin-left: 500px;
-  margin-right: 550px;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
 }
 
 .homeButton:hover {

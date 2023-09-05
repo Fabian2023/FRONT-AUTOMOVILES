@@ -1,0 +1,40 @@
+/* LoginUsers.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto ajustará el contenedor al alto de la ventana */
+    margin-top: -250px;
+    color:rgb(194, 58, 58)
+  }
+  
+  form {
+    width: 300px; /* Ajusta el ancho del formulario según tus preferencias */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente en el formulario */
+  }
+  
+  /* Agrega espacio entre los elementos del formulario */
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para etiquetas */
+  label {
+    font-weight: bold;
+    color:rgba(247, 185, 185, 0.699) /* Opcional: hace que las etiquetas sean más prominentes */
+  }
+  
+  /* Estilo para inputs */
+  input {
+    padding: 5px;
+    width: 100%; /* El input ocupará todo el ancho del contenedor */
+    border: 1px solid #ccc; /* Añade un borde para separar los inputs */
+    border-radius: 4px;
+  }
+  
+  /* Agrega estilos para los elementos dentro del formulario según sea necesario */
+  

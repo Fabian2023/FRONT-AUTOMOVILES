@@ -63,7 +63,7 @@ const About = () => {
 
   return (
     <div>
-      <h1>Desarrolladores</h1>
+      <h2 className="header-sec">Desarrolladores</h2>
       <div className="programmers-list">
         {programmers.map((programmer, index) => (
           <div key={index} className="programmer-card">
